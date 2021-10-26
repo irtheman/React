@@ -1,0 +1,49 @@
+.search-container {
+	display: inline-block;
+	margin: 10px auto;
+	width: 25%;
+	max-width: 300px;
+	height: 5%;
+	max-height: 50px;
+}
+
+.search-container[type=text] {
+	width: 100%;
+	padding: 16px;
+	font-size: 10px;
+	font-style: italic;
+	color: #444;
+	box-sizing: border-box;
+	outline: none;
+	background-image: url(../assets/search.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: 99% 100%;
+}
+
+.search-icon {
+	position: relative;
+	font-size: 24px;
+	color: #555;
+	top: 5px;
+	right: 18px;
+}
+
+.search-loading {
+	position: relative;
+	left: 0;
+	right: 10px;
+	margin: auto;
+}
+
+.search-show {
+	display: inline-block;
+}
+
+.search-hide {
+	display: none;
+}
+
+.search-message {
+	color: red;
+}

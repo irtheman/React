@@ -1,0 +1,42 @@
+.button-menu {
+    position: relative;
+}
+  
+.menu-button-group {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.menu-toggle {
+    padding: 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.menu-button {
+    background: #e2e2e2;
+    border-style: none;
+    padding: 1rem;
+    color: #000000;
+    font-weight: bold;
+    width: clamp(200px, 50%, 300px);
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    text-align: left;
+    text-decoration: none;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+}
+
+.menu-button:focus {
+    outline: #000;
+    outline-width: 10px;
+}
